@@ -1,7 +1,3 @@
-import previewImg from "../img/preview.png";
-import previewImg2 from "../img/preview2.png";
-import previewImg3 from "../img/preview3.png";
-
 export const PORTFOLIO_DATA = {
   name: "Bhavya Sharma",
   role: "Full Stack Engineer & UI Architect",
@@ -28,7 +24,7 @@ export const PORTFOLIO_DATA = {
       description: "A highly interative hospital dashboard developed for making the online presence of the hospital and making services easy to patients.",
       tech: ["Packs.json", "TypeScript", "Vite", "Tailwind"],
       link: "https://mssh.pages.dev/",
-      image: `${previewImg}?auto=format&fit=crop&q=80&w=800`,
+      image: "./src/img/preview.png",
       color: "from-blue-500 to-cyan-400"
     },
     {
@@ -36,7 +32,7 @@ export const PORTFOLIO_DATA = {
       description: "An eniterpise dashboard hosting the products online and allowing consumers to order them live.",
       tech: ["React", "Spreadsheet API", "Node.js", "Dist"],
       link: "https://www.stsenterprise.co.in/",
-      image: `${previewImg2}?auto=format&fit=crop&q=80&w=800`,
+      image: "./src/img/preview2.png",
       color: "from-purple-500 to-pink-400"
     },
     {
@@ -44,7 +40,7 @@ export const PORTFOLIO_DATA = {
       description: "---UNDER CONSTRUCTION---",
       tech: ["TypeScript", "React", "Backend", "Framer Motion"],
       link: "#",
-      image: `${previewImg3}?auto=format&fit=crop&q=80&w=800`,
+      image: "./src/img/preview3.png",
       color: "from-emerald-500 to-teal-400"
     },
     {
