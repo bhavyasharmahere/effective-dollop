@@ -1,4 +1,4 @@
-import previewImg from "./src/img/preview.png";
+import previewImg from "../img/preview.png";
 import previewImg2 from "../img/preview2.png";
 import previewImg3 from "../img/preview3.png";
 
