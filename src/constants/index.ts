@@ -1,17 +1,21 @@
+import previewImg from "./src/img/preview.png";
+import previewImg2 from "../img/preview2.png";
+import previewImg3 from "../img/preview3.png";
+
 export const PORTFOLIO_DATA = {
-  name: "Alex Rivers",
+  name: "Bhavya Sharma",
   role: "Full Stack Engineer & UI Architect",
   description: "Crafting digital experiences where performance meets aesthetics. Specializing in building scalable web applications with a focus on user-centric design.",
   email: "hello@alexrivers.dev",
   socials: [
-    { name: "GitHub", url: "https://github.com", icon: "github" },
+    { name: "GitHub", url: "https://github.com/the-og-dev", icon: "github" },
     { name: "LinkedIn", url: "https://linkedin.com", icon: "linkedin" },
     { name: "Twitter", url: "https://twitter.com", icon: "twitter" },
   ],
   skills: [
-    { name: "TypeScript", level: "Expert", category: "Frontend" },
-    { name: "React / Next.js", level: "Expert", category: "Frontend" },
-    { name: "Tailwind CSS", level: "Expert", category: "Frontend" },
+    { name: "TypeScript", level: "Advanced", category: "Frontend" },
+    { name: "React / Next.js", level: "Advanced", category: "Frontend" },
+    { name: "Tailwind CSS", level: "Advanced", category: "Frontend" },
     { name: "Node.js", level: "Advanced", category: "Backend" },
     { name: "PostgreSQL", level: "Advanced", category: "Backend" },
     { name: "AWS / GCP", level: "Intermediate", category: "DevOps" },
@@ -20,27 +24,27 @@ export const PORTFOLIO_DATA = {
   ],
   projects: [
     {
-      title: "Quantum Finance",
-      description: "A next-generation DeFi dashboard with real-time analytics and predictive market trends.",
-      tech: ["Next.js", "TypeScript", "Chart.js", "Tailwind"],
-      link: "#",
-      image: "https://images.unsplash.com/photo-1611974717484-964436368460?auto=format&fit=crop&q=80&w=800",
+      title: "Hospital Website",
+      description: "A highly interative hospital dashboard developed for making the online presence of the hospital and making services easy to patients.",
+      tech: ["Packs.json", "TypeScript", "Vite", "Tailwind"],
+      link: "https://mssh.pages.dev/",
+      image: `${previewImg}?auto=format&fit=crop&q=80&w=800`,
       color: "from-blue-500 to-cyan-400"
     },
     {
-      title: "Lumina AI",
-      description: "AI-powered content generation platform that optimizes SEO and user engagement automatically.",
-      tech: ["React", "OpenAI API", "Node.js", "MongoDB"],
-      link: "#",
-      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
+      title: "Enterpise Dashboard",
+      description: "An eniterpise dashboard hosting the products online and allowing consumers to order them live.",
+      tech: ["React", "Spreadsheet API", "Node.js", "Dist"],
+      link: "https://www.stsenterprise.co.in/",
+      image: `${previewImg2}?auto=format&fit=crop&q=80&w=800`,
       color: "from-purple-500 to-pink-400"
     },
     {
-      title: "Nexus OS",
-      description: "A browser-based operating system simulation with a fully functional windowing system.",
-      tech: ["TypeScript", "React", "Zustand", "Framer Motion"],
+      title: "Video Downloader",
+      description: "---UNDER CONSTRUCTION---",
+      tech: ["TypeScript", "React", "Backend", "Framer Motion"],
       link: "#",
-      image: "https://images.unsplash.com/photo-1550751827-4c39ad973731?auto=format&fit=crop&q=80&w=800",
+      image: `${previewImg3}?auto=format&fit=crop&q=80&w=800`,
       color: "from-emerald-500 to-teal-400"
     },
     {
