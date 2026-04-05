@@ -5,10 +5,9 @@ import { PORTFOLIO_DATA } from '../constants';
 export const Projects = () => {
   // Helper to resolve image path - supports both URLs and local images
   const getImageSrc = (imagePath: string) => {
-    if (!imagePath) return '/img/preview.png';
     if (imagePath.startsWith('http')) return imagePath;
     // If local path like "preview" -> "/img/preview.png"
-    return `/img/${imagePath}.png`;
+    return `${imagePath}.png`;
   };
 
   return (
