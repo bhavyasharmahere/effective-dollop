@@ -3,6 +3,14 @@ import { ArrowUpRight } from 'lucide-react';
 import { PORTFOLIO_DATA } from '../constants';
 
 export const Projects = () => {
+  // Helper to resolve image path - supports both URLs and local images
+  const getImageSrc = (imagePath: string) => {
+    if (!imagePath) return '/img/preview.png';
+    if (imagePath.startsWith('http')) return imagePath;
+    // If local path like "preview" -> "/img/preview.png"
+    return `/img/${imagePath}.png`;
+  };
+
   return (
     <section id="projects" className="py-24 px-6 max-w-7xl mx-auto">
       <div className="mb-16 text-center">
@@ -36,22 +44,34 @@ export const Projects = () => {
             whileHover={{ y: -10 }}
             className="group relative rounded-3xl overflow-hidden bg-white/5 border border-white/10"
           >
-            <div className="aspect-video overflow-hidden">
+            <a 
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block aspect-video overflow-hidden"
+            >
               <motion.img 
-                src={project.image} 
+                src={getImageSrc(project.image)} 
                 alt={project.title} 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                onError={(e) => {
+                  // Fallback to default placeholder if image fails
+                  (e.target as HTMLImageElement).src = '/img/preview.png';
+                }}
               />
               <div className={`absolute inset-0 bg-gradient-to-t ${project.color} opacity-20 group-hover:opacity-40 transition-opacity duration-500`} />
-            </div>
+            </a>
             
             <div className="p-8">
               <div className="flex justify-between items-start mb-4">
                 <h3 className="text-2xl font-bold text-white">{project.title}</h3>
                 <motion.a 
                   href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   whileHover={{ scale: 1.1 }}
                   className="p-2 rounded-full bg-white/10 text-white hover:bg-white/20 transition-colors"
+                  aria-label={`View ${project.title}`}
                 >
                   <ArrowUpRight className="w-5 h-5" />
                 </motion.a>

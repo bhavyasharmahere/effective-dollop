@@ -2,7 +2,7 @@ export const PORTFOLIO_DATA = {
   name: "Bhavya Sharma",
   role: "Full Stack Engineer & UI Architect",
   description: "Crafting digital experiences where performance meets aesthetics. Specializing in building scalable web applications with a focus on user-centric design.",
-  email: "hello@alexrivers.dev",
+  email: "bhavthedev@proton.me",
   socials: [
     { name: "GitHub", url: "https://github.com/the-og-dev", icon: "github" },
     { name: "LinkedIn", url: "https://linkedin.com", icon: "linkedin" },
@@ -24,7 +24,7 @@ export const PORTFOLIO_DATA = {
       description: "A highly interative hospital dashboard developed for making the online presence of the hospital and making services easy to patients.",
       tech: ["Packs.json", "TypeScript", "Vite", "Tailwind"],
       link: "https://mssh.pages.dev/",
-      image: "./src/img/preview.png",
+      image: "./public/img/preview.png",
       color: "from-blue-500 to-cyan-400"
     },
     {
@@ -32,7 +32,7 @@ export const PORTFOLIO_DATA = {
       description: "An eniterpise dashboard hosting the products online and allowing consumers to order them live.",
       tech: ["React", "Spreadsheet API", "Node.js", "Dist"],
       link: "https://www.stsenterprise.co.in/",
-      image: "./src/img/preview2.png",
+      image: "./public/img/preview2.png",
       color: "from-purple-500 to-pink-400"
     },
     {
@@ -40,7 +40,7 @@ export const PORTFOLIO_DATA = {
       description: "---UNDER CONSTRUCTION---",
       tech: ["TypeScript", "React", "Backend", "Framer Motion"],
       link: "#",
-      image: "./src/img/preview3.png",
+      image: "./public/img/preview3.png",
       color: "from-emerald-500 to-teal-400"
     },
     {
