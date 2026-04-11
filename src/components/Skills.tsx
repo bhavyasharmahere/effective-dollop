@@ -46,7 +46,7 @@ export const Skills = () => {
                     <div className="h-1.5 w-full bg-white/10 rounded-full overflow-hidden">
                       <motion.div 
                         initial={{ width: 0 }}
-                        whileInView={{ width: skill.level === 'Expert' ? '100%' : skill.level === 'Advanced' ? '80%' : '60%' }}
+                        whileInView={{ width: skill.level === 'Expert' ? '100%' : skill.level === 'Advanced' ? '80%' : skill.level === 'Intermediate' ? '60%' : '40%' }}
                         transition={{ duration: 1, delay: 0.2 }}
                         className="h-full bg-gradient-to-r from-purple-500 to-blue-500"
                       />
