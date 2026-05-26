@@ -24,7 +24,7 @@ export const PORTFOLIO_DATA = {
       description: "A highly interative hospital dashboard developed for making the online presence of the hospital and making services easy to patients.",
       tech: ["Packs.json", "TypeScript", "Vite", "Tailwind"],
       link: "https://mssh.pages.dev/",
-      image: "public/img/mssh.png",
+      image: "public/img/mssh",
       color: "from-blue-500 to-cyan-400"
     },
     {
