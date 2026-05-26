@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { ArrowUpRight } from 'lucide-react';
 import { PORTFOLIO_DATA } from '../constants';
 
-
+export const Projects = () => {
   return (
     <section id="projects" className="py-24 px-6 max-w-7xl mx-auto">
       <div className="mb-16 text-center">
@@ -84,3 +84,4 @@ import { PORTFOLIO_DATA } from '../constants';
       </div>
     </section>
   );
+};
