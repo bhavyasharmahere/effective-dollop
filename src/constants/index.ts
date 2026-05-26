@@ -42,7 +42,7 @@ export const PORTFOLIO_DATA = {
       link: "https://pdf-portal.pages.dev/",
       image: "/img/portal.png",
       color: "from-orange-500 to-yellow-400"
-    }
+    },
     {
       title: "Video Downloader",
       description: "---THIS PROJECT IS STILL UNDER CONSTRUCTION---",
@@ -50,7 +50,7 @@ export const PORTFOLIO_DATA = {
       link: "#",
       image: "/img/yt.png",
       color: "from-emerald-500 to-teal-400"
-    },
+    }
   
   ]
 };
