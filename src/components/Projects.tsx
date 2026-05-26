@@ -84,4 +84,3 @@ import { PORTFOLIO_DATA } from '../constants';
       </div>
     </section>
   );
-};
