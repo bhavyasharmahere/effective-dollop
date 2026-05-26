@@ -5,7 +5,7 @@ export const PORTFOLIO_DATA = {
   email: "bhavthedev@proton.me",
   socials: [
     { name: "GitHub", url: "https://github.com/the-og-dev", icon: "github" },
-    { name: "LinkedIn", url: "https://linkedin.com", icon: "linkedin" },
+    { name: "LinkedIn", url: "https://www.linkedin.com/in/bhavya-sharma-a08808410/", icon: "linkedin" },
     { name: "Twitter", url: "https://twitter.com", icon: "twitter" },
   ],
   skills: [
@@ -24,7 +24,7 @@ export const PORTFOLIO_DATA = {
       description: "A highly interative hospital dashboard developed for making the online presence of the hospital and making services easy to patients.",
       tech: ["Packs.json", "TypeScript", "Vite", "Tailwind"],
       link: "https://mssh.pages.dev/",
-      image: "/img/mssh.png",
+      image: "public/img/mssh.png",
       color: "from-blue-500 to-cyan-400"
     },
     {
@@ -44,7 +44,7 @@ export const PORTFOLIO_DATA = {
       color: "from-emerald-500 to-teal-400"
     },
     {
-      title: "Zenith E-commerce",
+      title: "Secure PDF Portal",
       description: "High-performance headless commerce store with sub-second page loads and 99 Lighthouse score.",
       tech: ["Next.js", "Shopify Storefront API", "Tailwind"],
       link: "#",
