@@ -20,11 +20,11 @@ export const PORTFOLIO_DATA = {
   ],
   projects: [
     {
-      title: "Hospital Website",
+      title: "Hospital Webpage",
       description: "A highly interative hospital dashboard developed for making the online presence of the hospital and making services easy to patients.",
       tech: ["Packs.json", "TypeScript", "Vite", "Tailwind"],
       link: "https://mssh.pages.dev/",
-      image: "public/img/mssh",
+      image: "public/img/mssh.png",
       color: "from-blue-500 to-cyan-400"
     },
     {
@@ -47,8 +47,8 @@ export const PORTFOLIO_DATA = {
       title: "Secure PDF Portal",
       description: "High-performance headless commerce store with sub-second page loads and 99 Lighthouse score.",
       tech: ["Next.js", "Shopify Storefront API", "Tailwind"],
-      link: "#",
-      image: "https://images.unsplash.com/photo-1460925895917-afbe65ae8364?auto=format&fit=crop&q=80&w=800",
+      link: "https://pdf-portal.pages.dev/",
+      image: "public/img/sts.png",
       color: "from-orange-500 to-yellow-400"
     }
   ]

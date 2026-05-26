@@ -2,13 +2,6 @@ import { motion } from 'framer-motion';
 import { ArrowUpRight } from 'lucide-react';
 import { PORTFOLIO_DATA } from '../constants';
 
-export const Projects = () => {
-  // Helper to resolve image path - supports both URLs and local images
-  const getImageSrc = (imagePath: string) => {
-    if (imagePath.startsWith('http')) return imagePath;
-    // If local path like "preview" -> "/img/preview.png"
-    return `${imagePath}.png`;
-  };
 
   return (
     <section id="projects" className="py-24 px-6 max-w-7xl mx-auto">
@@ -50,7 +43,7 @@ export const Projects = () => {
               className="block aspect-video overflow-hidden"
             >
               <motion.img 
-                src={getImageSrc(project.image)} 
+                src={project.image}
                 alt={project.title} 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 onError={(e) => {
