@@ -21,35 +21,36 @@ export const PORTFOLIO_DATA = {
   projects: [
     {
       title: "Hospital Webpage",
-      description: "A highly interative hospital dashboard developed for making the online presence of the hospital and making services easy to patients.",
+      description: "A modern and responsive business website designed for seamless user experience, featuring clean UI, optimized performance, service highlights, team presentation, testimonials, and smooth navigation. Built with scalable frontend technologies for fast, reliable, and professional web presence.",
       tech: ["Packs.json", "TypeScript", "Vite", "Tailwind"],
       link: "https://mssh.pages.dev/",
-      image: "public/img/mssh.png",
+      image: "/img/mssh.png",
       color: "from-blue-500 to-cyan-400"
     },
     {
       title: "Enterpise Dashboard",
-      description: "An eniterpise dashboard hosting the products online and allowing consumers to order them live.",
+      description: "A modern enterprise platform designed for secure digital document access and streamlined file management. The system offers an organized and user-friendly environment for browsing, handling, and sharing resources efficiently while maintaining high standards of performance, reliability, and protected user access.",
       tech: ["React", "Spreadsheet API", "Node.js", "Dist"],
       link: "https://www.stsenterprise.co.in/",
       image: "/img/sts.png",
       color: "from-purple-500 to-pink-400"
     },
     {
+      title: "Secure PDF Portal",
+      description: "A secure document management platform that allows users to upload, access, and download files directly from cloud drive storage through integrated APIs. The system includes protected user authentication, controlled document access, seamless file handling, and a clean web interface designed for fast, reliable, and secure document sharing.",
+      tech: ["Next.js", "Google Drive API", "Tailwind"],
+      link: "https://pdf-portal.pages.dev/",
+      image: "/img/portal.png",
+      color: "from-orange-500 to-yellow-400"
+    }
+    {
       title: "Video Downloader",
-      description: "---UNDER CONSTRUCTION---",
+      description: "---THIS PROJECT IS STILL UNDER CONSTRUCTION---",
       tech: ["TypeScript", "React", "Backend", "Framer Motion"],
       link: "#",
       image: "/img/yt.png",
       color: "from-emerald-500 to-teal-400"
     },
-    {
-      title: "Secure PDF Portal",
-      description: "High-performance headless commerce store with sub-second page loads and 99 Lighthouse score.",
-      tech: ["Next.js", "Shopify Storefront API", "Tailwind"],
-      link: "https://pdf-portal.pages.dev/",
-      image: "public/img/sts.png",
-      color: "from-orange-500 to-yellow-400"
-    }
+  
   ]
 };
